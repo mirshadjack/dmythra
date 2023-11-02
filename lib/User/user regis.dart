@@ -211,7 +211,7 @@ class _userdetailsState extends State<userdetails> {
               ),
               Container(
                 height: 70,
-                width: 300,
+                width: 250,
                 child: ElevatedButton(
                   style: ButtonStyle(
                       backgroundColor: MaterialStatePropertyAll(Colors.indigo)),

@@ -1,12 +1,21 @@
+import 'package:dmythra_mirshad/User/career.dart';
 import 'package:dmythra_mirshad/starting%20page.dart';
 import 'package:flutter/material.dart';
 
 import 'User/Activity post.dart';
 import 'User/Userlogin.dart';
+import 'User/accadamic.dart';
+import 'User/counsling.dart';
+import 'User/food.dart';
+import 'User/help,dart.dart';
+import 'User/medication.dart';
+import 'User/phsiyo.dart';
 import 'User/therapy support.dart';
+import 'User/trainiing.dart';
 import 'User/user home.dart';
 import 'User/user regis.dart';
 import 'loginas.dart';
+import 'org_spo/orghome.dart';
 import 'org_spo/orglogin.dart';
 import 'org_spo/orgregis.dart';
 
@@ -41,7 +50,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const activitypost()
+      home: const medication()
     );
   }
 }
